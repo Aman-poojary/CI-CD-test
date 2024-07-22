@@ -23,11 +23,11 @@ jobs:
       working-directory: ./src
 
     - name: Build
-      run: go build -o app ./src
+      run: go build -o app 
       working-directory: ./src
 
     - name: Run tests
-      run: go test ./src/...
+      run: go test ./...
       working-directory: ./src
 
     - name: Build Docker image
