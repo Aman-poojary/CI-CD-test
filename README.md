@@ -50,4 +50,4 @@ To use this pipeline:
 
 - Update the DockerHub repository in GitHub Actions workflow.
 - Modify Kubernetes configurations in `kubernetes/` as needed.
-- Adjust GitHub Actions workflow in `.github/workflows/ci-cd.yml` for your specific requiremen
+- Adjust GitHub Actions workflow in `.github/workflows/ci-cd.yml` for your specific requirement.
